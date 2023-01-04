@@ -1,16 +1,16 @@
 import React from 'react'
-import Header from './Header'
-import Body from './Body'
-import Fotter from './Fotter'
+import PageHeader from './Header'
+import PageBody from './Body'
+import PageFotter from './Fotter'
 
 
 const HomePage = () => {
     
     return (
         <>
-            <Header />
-            <Body />
-            <Fotter />
+            {/* <PageHeader />
+            <PageBody />
+            <PageFotter /> */}
         </>
     )
 }
