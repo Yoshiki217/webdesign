@@ -1,10 +1,10 @@
-import './App.css';
+import HomePage from "./comp/HomePage";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <h1 className="text-3xl font-bold underline">
-        Hello world!
+        <HomePage />
     </h1>
     </div>
   );
