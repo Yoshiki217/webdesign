@@ -8,9 +8,9 @@ const HomePage = () => {
     
     return (
         <>
-            {/* <PageHeader />
+            <PageHeader />
             <PageBody />
-            <PageFotter /> */}
+            <PageFotter />
         </>
     )
 }
