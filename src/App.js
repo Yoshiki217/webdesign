@@ -1,11 +1,11 @@
 import HomePage from "./comp/HomePage";
+import Routing from "./comp/router/Routing";
+
 
 const App = () => {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">
-        <HomePage />
-    </h1>
+    <div className="App">               
+      <Routing />
     </div>
   );
 }
