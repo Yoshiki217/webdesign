@@ -1,4 +1,6 @@
 import React from 'react'
+import RootForm from './RootForm'
+
 
 const SideBar = () => {
     return (
@@ -102,13 +104,11 @@ const SideBar = () => {
                     <main class="relative flex-1 overflow-y-auto focus:outline-none">
                         <div class="py-6">
                             <div class="px-4 mx-auto max-w-7xl sm:px-6 md:px-8">
-                                <h1 class="text-lg text-neutral-600">Here is where you put your stuff</h1>
+                                <h1 class="text-lg text-neutral-600">アカウント
+                                </h1>
                             </div>
-                            <div class="px-4 mx-auto max-w-7xl sm:px-6 md:px-8">
-                                {/* ここにユーザーの情報を表示 */}
-                                <div class="py-4">
-                                    <div class="rounded-lg bg-gray-50 h-96"></div>
-                                </div>
+                            <div class="px-4 mx-auto max-w-7xl sm:px-6 md:px-8">   
+                                <RootForm />
                             </div>
                         </div>
                     </main>
